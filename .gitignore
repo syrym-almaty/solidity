@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+
+# TypeScript build artifacts
+dist/
+*.tsbuildinfo
+
+# Solidity ABI and BIN files
+contracts/*.abi
+contracts/*.bin
+
+# Hardhat configuration
+hardhat.config.ts
+hardhat.config.js
+
+# Test output and logs
+test-output/
+*.log
+
+# Environment variables and secrets (add if needed)
+.env
+
+# Compiled contract typings (optional)
+typechain/
+
+# Miscellaneous system files
+.DS_Store
+Thumbs.db
+
+# Windows-specific files
+*.lnk
+*.exe
+
+# PowerShell history and profile data
+*.ps1xml
+*.ps1
+*.psm1
+*.psd1
+*.bash_history
+*.bash_logout
+*.bash_profile
+
+# npm debug logs
+npm-debug.log*
